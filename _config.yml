@@ -30,10 +30,22 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+# 기존 theme 줄은 주석 처리
+# theme: minima
 
+# Just the Docs 테마 설정
+remote_theme: just-the-docs/just-the-docs
+
+# GitHub Pages 원격 테마 플러그인
+plugins:
+  - jekyll-remote-theme
+
+# 블로그 주소 및 하위 경로 설정
+url: "https://chiknh.github.io"
+baseurl: "/trace.github.io"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
